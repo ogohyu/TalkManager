@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkManager", "TalkManager\TalkManager.csproj", "{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadWatchDog", "ThreadWatchDog\ThreadWatchDog.csproj", "{F3556759-5C6C-43BF-92D5-12BEEA155E2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1} = {14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14219CB9-FB9C-4FCC-BF4D-F241AAA61FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3556759-5C6C-43BF-92D5-12BEEA155E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3556759-5C6C-43BF-92D5-12BEEA155E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3556759-5C6C-43BF-92D5-12BEEA155E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3556759-5C6C-43BF-92D5-12BEEA155E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D46C41CC-768A-482C-909C-77F9F5564D83}
+	EndGlobalSection
+EndGlobal
